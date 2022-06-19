@@ -197,74 +197,62 @@ h3{
 	font-weight: 700;
 }
 
-footer{
-	background: url("../images/bg-pattern-footer-mobile.svg")
-	var(--VeryLightGray) no-repeat;
-	background-color: hsl(0, 0%, 98%);
-	text-align: center;	
-}
-footer #line{
- 	margin-top: 3%;
- 	width: 90%;
- 	}
+/* RESPONSIVENESS desktop view */
+@media(min-width:1000px){
 
-.icons{
-	margin: 3em;
-}
-.icons img{
-	padding-top: 2em;
-	margin-right: 1.2em;
-}
-
-
-
-#fonts{
-	margin-top: 3em;
-	display: flex;
-	flex-direction: column;
-	text-transform: uppercase;
-	}
-
-#fonts ul{
-	text-decoration: none;
-	list-style: none;
-
-}
-#fonts ul li{
-padding-bottom:1em;
-
-}
-
-#fonts  ul li a{
-	color: hsl(256, 26%, 20%);
-	font-weight: 500;
-	font-size: 0.8rem;
-	word-spacing: 0.4em;
-
-}
-#fonts ul li:first-child{
-	padding-bottom: 2.0em;
-
-	
-}
-
-
-
-
-
-
-
-
- .attribution { 
- 	font-size: 11px; 
- 	text-align: center; 
- }
- .attribution a { 
- 	color: hsl(228, 45%, 44%);
- 	 }
- 
-
-
+    #line{
+        margin-top: 0;
+        margin-left: 11%;
+    }
+    
+    #navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    
+    }
+    
+     .navbar-nav {
+        background-color:white;
+        margin-top: 0;
+        padding-top: 0.7em;
+    
+    }
+    .navbar-nav .nav-item .nav-link{
+        color:hsl(273, 4%, 51%);
+        font-size: 0.8rem;
+        padding-right: 1.5em;
+    
+    
+    
+    }
+    .navbar-nav button{
+        border:groove 2px hsl(256, 26%, 20%);
+        background-color: white;
+        color:hsl(270, 9%, 17%);
+        padding:0.5em 1.7em 0.5em 1.7em;
+        font-size: 0.8rem;
+        margin-right: 5em;
+        font-weight:500;
+        width: auto;
+    
+    }
+    
+    
+    
+    .navbar-nav .nav-item .nav-link:hover{
+        color:hsl(256, 26%, 20%);
+    }
+    .navbar-nav button:hover{
+        background-color:hsl(256, 26%, 20%);
+        color:white;
+    }
+    
+    
+    
+    
+    
+    
+    
 
 
 
